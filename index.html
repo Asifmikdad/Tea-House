@@ -5,27 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
 
-    <!-- Import google font -->
+    <!-- Import Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <!-- Import font awesome -->
-    <script src="https://kit.fontawesome.com/4a0f3c82f2.js" crossorigin="anonymous"></script>
+    <!-- Import Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Import Tailwind -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-        theme {
-          --color-clifford: #da373d;
-        }
-      </style>
-    
-
-
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <p class="font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deserunt?</p>
-    <h1 class="font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, dolor.</h1>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-20">
+        <header class="pt-10 mb-20">
+    <!-- Text Content -->
+            <section class="flex">
+                <div>
+                    <h1 class="text-5xl md:text-7xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
+                    <br>
+                    <p class="text-gray-500 w3/4">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <br>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 text-xl text-white px-6 py-3 rounded-lg flex items-center gap-2 shadow-lg">
+                    Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                    </button>
+                </div>
+
+
+    <!-- Image Content -->
+                <div class="relative">
+                    <div>
+                        <img src="Images/banner.png" alt="">
+                    </div>
+    <!-- image card -->
+                    <div class=" absolute flex items-center bg-white shadow-lg px-2 md:px-10 py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+                        <div>
+                            <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+                        </div>
+                         <div class="ml-2">
+                            <h2 class="lg:text-2xl font-bold">5.00</h2>
+                            <p class="text-gray-500">Trust Pilot Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    </main>
 </body>
 </html>
